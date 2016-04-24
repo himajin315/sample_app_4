@@ -1,0 +1,16 @@
+/Users/ooshiroyoshiaki/.rbenv/versions/2.1.2/bin/ruby -r ./siteconf20160425-25803-1hlti4u.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20160425-25803-1hu6pu3/byebug
+installing default byebug libraries
